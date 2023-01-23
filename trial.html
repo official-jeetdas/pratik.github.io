@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <title></title>
+    <style>
+        nav {
+
+            position: sticky !important;
+            top: 0;
+            z-index: 100;
+            background-color: #f5f5f5;
+
+        }
+
+        .navitem {
+            margin-left: auto !important;
+        }
+
+        .logo {
+            height: 1.5rem;
+            padding-bottom: 6px;
+        }
+
+        .mainimg {
+            width: 100%;
+
+        }
+        
+    </style>
+<script src="components/nav.js" type="text/javascript" defer></script>
+</head>
+
+<body>
+    
+    <nav-component></nav-component>
+    <div class="container">
+        <div class="grid-description"  data-case="first">
+            <h2>Visit Budapest</h2>
+            <div class="info"> <span class="date"><i class="far fa-calendar"></i> November 12, 2019</span> <span class="comment"><i class="far fa-comment-alt"></i> 2 comments</span> </div>
+            <p><i>Széchenyi Thermal Baths </i></p>
+            <p>
+                Budapest is the capital city of Hungary. It is best known for its arts and culture. It is a relatively small city, however there are much to see and do.
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">Situated on thermal springs, there are many naturally heated baths to relax in, the Széchenyi baths are the largest with 15 indoor baths and 3 outdoor. There are many spectacular viewpoints in Budapest, great for capturing the views of the city. From 360 panoramic views up at St Stephens Basilica to a wide view of the parliament and the River at Fisherman’s Bastion. Visit the Museum of Fine Arts and enjoy a day amongst famous European art. Classical music lovers will appreciate a performance at the Academy of Music.</span>
+            </p>
+            <button onclick="readMore('first')" class="myBtn">Read more</button>
+        </div>
+        <br>
+        <div class="grid-description"  data-case="second">
+            <h2>Visit Barcelona</h2>
+            <div class="info"> <span class="date"><i class="far fa-calendar"></i> December 06, 2019</span> <span class="comment"><i class="far fa-comment-alt"></i> 5 comments</span> </div>
+            <div class="img"><img src="img/guell-park.jpg" style="height:200px;"></div>
+            <p><i>Park Güell </i></p>
+            <p>
+                Barcelona, framed for its individuality, cultural interest, and physical beauty, home to art and architecture. Facing the Mediterranean to the southeast,
+                <span class="dots">...</span>
+                <span class="more" style="display: none;"> the city is one of a kind. Upon visiting make sure you visit the spectacular and unique Park Güell which was firstly designed for a town up in the mountains by artist Antoni Gaudí. Gaudí's work is admired by architects around the World as being one of the most unique and distinctive styles in modern architecture. Other places worth visiting is the La Sagrada Família, is a giant basilica. With beaches on your doorstop, and art and city culture, this diverse city has everything to offer.</span>
+            </p>
+            <button onclick="readMore('second')" class="myBtn">Read more</button>
+        </div>
+        <div class="card" data-case="third">
+            <h2>Visit Budapest</h2>
+            <div class="info"> <span class="date"><i class="far fa-calendar"></i> November 12, 2019</span> <span class="comment"><i class="far fa-comment-alt"></i> 2 comments</span> </div>
+            <p><i>Széchenyi Thermal Baths </i></p>
+            <p>
+                Budapest is the capital city of Hungary. It is best known for its arts and culture. It is a relatively small city, however there are much to see and do.
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">Situated on thermal springs, there are many naturally heated baths to relax in, the Széchenyi baths are the largest with 15 indoor baths and 3 outdoor. There are many spectacular viewpoints in Budapest, great for capturing the views of the city. From 360 panoramic views up at St Stephens Basilica to a wide view of the parliament and the River at Fisherman’s Bastion. Visit the Museum of Fine Arts and enjoy a day amongst famous European art. Classical music lovers will appreciate a performance at the Academy of Music.</span>
+            </p>
+            <button onclick="readMore('third')" class="myBtn">Read more</button>
+        </div>
+        <br>
+        <div class="card" data-case="forth">
+            <h2>Visit Budapest</h2>
+            <div class="info"> <span class="date"><i class="far fa-calendar"></i> November 12, 2019</span> <span class="comment"><i class="far fa-comment-alt"></i> 2 comments</span> </div>
+            <p><i>Széchenyi Thermal Baths </i></p>
+            <p>
+                Budapest is the capital city of Hungary. It is best known for its arts and culture. It is a relatively small city, however there are much to see and do.
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">Situated on thermal springs, there are many naturally heated baths to relax in, the Széchenyi baths are the largest with 15 indoor baths and 3 outdoor. There are many spectacular viewpoints in Budapest, great for capturing the views of the city. From 360 panoramic views up at St Stephens Basilica to a wide view of the parliament and the River at Fisherman’s Bastion. Visit the Museum of Fine Arts and enjoy a day amongst famous European art. Classical music lovers will appreciate a performance at the Academy of Music.</span>
+            </p>
+            <button onclick="readMore('forth')" class="myBtn">Read more</button>
+        </div>
+        <br>
+        <div class="card" data-case="fifth">
+            <h2>Visit Budapest</h2>
+            <div class="info"> <span class="date"><i class="far fa-calendar"></i> November 12, 2019</span> <span class="comment"><i class="far fa-comment-alt"></i> 2 comments</span> </div>
+            <p><i>Széchenyi Thermal Baths </i></p>
+            <p>
+                Budapest is the capital city of Hungary. It is best known for its arts and culture. It is a relatively small city, however there are much to see and do.
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">Situated on thermal springs, there are many naturally heated baths to relax in, the Széchenyi baths are the largest with 15 indoor baths and 3 outdoor. There are many spectacular viewpoints in Budapest, great for capturing the views of the city. From 360 panoramic views up at St Stephens Basilica to a wide view of the parliament and the River at Fisherman’s Bastion. Visit the Museum of Fine Arts and enjoy a day amongst famous European art. Classical music lovers will appreciate a performance at the Academy of Music.</span>
+            </p>
+            <button onclick="readMore('fifth')" class="myBtn">Read more</button>
+        </div>
+        <br>
+        <div class="card" data-case="sixth">
+            <h2>Visit Budapest</h2>
+            <div class="info"> <span class="date"><i class="far fa-calendar"></i> November 12, 2019</span> <span class="comment"><i class="far fa-comment-alt"></i> 2 comments</span> </div>
+            <p><i>Széchenyi Thermal Baths </i></p>
+            <p>
+                Budapest is the capital city of Hungary. It is best known for its arts and culture. It is a relatively small city, however there are much to see and do.
+                <span class="dots">...</span>
+                <span class="more" style="display: none;">Situated on thermal springs, there are many naturally heated baths to relax in, the Széchenyi baths are the largest with 15 indoor baths and 3 outdoor. There are many spectacular viewpoints in Budapest, great for capturing the views of the city. From 360 panoramic views up at St Stephens Basilica to a wide view of the parliament and the River at Fisherman’s Bastion. Visit the Museum of Fine Arts and enjoy a day amongst famous European art. Classical music lovers will appreciate a performance at the Academy of Music.</span>
+            </p>
+            <button onclick="readMore('sixth')" class="myBtn">Read more</button>
+        </div>
+        <br>
+
+    </div>
+
+<script>
+    function readMore(casee) {
+    let dots = document.querySelector(`.grid-description[data-case="${casee}"] .dots`);
+    let moreText = document.querySelector(`.grid-description[data-case="${casee}"] .more`); 
+    let btnText = document.querySelector(`.grid-description[data-case="${casee}"] .myBtn`);
+
+    if (dots.style.display === "none") {
+        dots.style.display = "inline";
+        btnText.textContent = "Read more";
+        moreText.style.display = "none";
+    } else {
+        dots.style.display = "none";
+        btnText.textContent = "Read less"; 
+        moreText.style.display = "inline";
+    }
+}
+</script>
+
+
+
+</body>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+</script>
+
+
+</html>

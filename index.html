@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="shortcut icon" href="assets/favicon.svg" type="image/x-icon">
+    <title>Adv. Pratik Acharjee</title>    
+    <!-- importing components -->
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <header-component></header-component>
+    <script src="components/nav.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
+    <!-- importing components -->
+
+</head>
+
+<body>
+    <!-- nav component -->
+    <nav-component></nav-component>
+    <!-- nav component -->
+
+    <div class="containerr">
+
+        <div class="wrapper">
+            <img class="mainimg" src="assets/img3.png" alt="main image">
+            <div class="box about-box">
+                <h3>About Me</h3>
+                <p>
+                    Pratik's main area of Legal Practice being Criminal Matters, Matrimonial Suits with special interest
+                    in Cyber Law, although his Practice range stretches a little to Civil Matters, including Public
+                    Interest Litigations, Company Matters, etc. He Graduated from Chandigarh University with a B.COM LLB
+                    Degree, then acquiring the Licence of the Bar Council of India to start Legal Practice. <br>
+                    In his young professional journey...
+
+                </p>
+                <a href="about.html"><button class="btn btn-learn-more">Learn More</button></a>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper2">
+        <h2>My Expertise Sectors</h2>
+        <div class="row g-3 g-lg-3">
+            <div class=" col-lg-3 col-md-6 col-sm-12">
+                <div class="box emp-box p-3">
+                    <h2 class="heading-nums">01.</h2>
+                    <hr class="line-expertise">
+                    <h4>Criminal Law</h4>
+                    <p> The body of law that defines criminal offenses, regulates the apprehension, charging, and trial
+                        of suspected persons, and fixes penalties and modes of treatment applicable to convicted
+                        offenders...</p><br><br><br>
+                        <a href="expertise.html#criminal"><button class="btn btn-learn-more">Learn More</button></a> 
+                </div>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-sm-12">
+                <div class="box emp-box p-3">
+                    <h2 class="heading-nums">02.</h2>
+                    <hr class="line-expertise">
+                    <h4>Social Right</h4>
+                    <p>Social rights are human rights and have all their characteristics. Social rights are moral, legal
+                        or societal rules and an understanding of what is necessary to fulfil people’s social needs and
+                        to promote social inclusion and social solidarity...</p><br>
+                        <a href="expertise.html#social"><button class="btn btn-learn-more">Learn More</button></a> 
+                </div>
+            </div>
+            <div class=" col-lg-3 col-md-6 col-sm-12">
+                <div class="box emp-box p-3">
+                    <h2 class="heading-nums">03.</h2>
+                    <hr class="line-expertise">
+                    <h4>Bail Matter</h4>
+                    <p>Under Indian criminal law, there is a provision for anticipatory bail under Section 440 of the
+                        Criminal Procedure Code. ... This provision allows a person to seek bail in anticipation of an
+                        arrest on accusation of having committed a non-bailable offence...</p><br><br>
+                        <a href="expertise.html#bail"><button class="btn btn-learn-more">Learn More</button></a> 
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="box emp-box p-3">
+                    <h2 class="heading-nums">04.</h2>
+                    <hr class="line-expertise">
+                    <h4>Matrimonial disputes</h4>
+                    <p>Matrimonial Disputes means disputes concerning all marriages recognized by law; family disputes;
+                        divorce actions; enforcement of divorce settlement agreements; maintenance suits; rights of
+                        access to children; custody cases, protection orders and drafting of Ante Nuptial Contracts...
+                    </p>
+                   <a href="expertise.html#Matrimonial "><button class="btn btn-learn-more">Learn More</button></a> 
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="containerr">
+
+        <div class="wrapper3">
+            <img class="comma" src="assets/comma.svg" alt="comma svg">
+
+            <p class="quote" id="contact">
+                There Is No Lawyer More Eloquent Than the Heart.
+            </p>
+            <p class="support">Sylvain Maréchal (1788)</p>
+            <div class="box bottom-box" id="contact">
+                <h1>Contact Me</h1>
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" class="form-control" aria-describedby="emailHelp" placeholder="Your Email"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Your Phone Number" pattern="[6789][0-9]{9}"
+                            oninvalid="this.setCustomValidity('Please Enter a Valid Phone Number.')"
+                            onchange="this.setCustomValidity('')" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                            placeholder="Your Message"
+                            oninvalid="this.setCustomValidity('Oops! you seem to have missed this field.')"
+                            onchange="this.setCustomValidity('')" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-learn-more">Submit</button>
+                </form>
+            </div>
+            <img class="court" src="assets/court.jpg" alt="">
+
+        </div>
+
+
+        <!-- conatinerr ends here -->
+    </div>    
+
+    
+    <!-- footer component -->    
+    <footer-component></footer-component>
+    <!-- footer component -->    
+<!-- bootstrap js cdn -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+</script>
+<!-- bootstrap js cdn -->
+</body>
+
+</html>

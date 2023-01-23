@@ -1,0 +1,144 @@
+.containerr {
+    margin-top: 10vh;
+}
+
+.header {
+    background-color: #e9e2de;
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 15px 15px 0 0;
+}
+
+.grid-system-img {
+    height: 60vh;
+    overflow: hidden;
+    background-size: cover;
+    width: 100%;
+    margin-bottom: 5vh !important;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.grid-description {
+    /* background-color: #a76e57;
+    color: #f5f5f5;*/
+    padding: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(8px)brightness(70%);
+    height: 95%;
+    width: 48%;
+    margin: auto auto;
+    overflow-y: scroll;
+}
+
+
+.grid-description>h1 {
+    color: #f5f5f5;
+    margin-bottom: 50px;
+}
+
+.grid-description>p {
+    color: #f5f5f5;
+}
+
+.grid-system-img:nth-child(2) {
+    background-image: url(../assets/civillaw.jpg);
+    border-radius: 0 0 15px 15px;
+
+}
+
+.grid-system-img:nth-child(3) {
+    background-image: url(../assets/criminal\ law.jpg);
+    border-radius: 15px 15px 0 0;
+
+}
+
+.grid-system-img:nth-child(4) {
+    background-image: url(../assets/matrimonial.jpg);
+    border-radius: 0 0 15px 15px;
+
+}
+
+.grid-system-img:nth-child(5) {
+    background-image: url(../assets/divorce.jpg);
+    border-radius: 15px 15px 0 0;
+
+}
+
+.grid-system-img:nth-child(6) {
+    background-image: url(../assets/documentation.jpg);
+    border-radius: 0 0 15px 15px;
+
+}
+
+.grid-system-img:nth-child(7) {
+    background-image: url(../assets/property\ registration.jpg);
+    border-radius: 15px 15px 0 0;
+
+}
+
+.grid-system-img:nth-child(8) {
+    background-image: url(../assets/bail.jpg);
+    border-radius: 0 0 15px 15px;
+
+}
+
+.grid-system-img:nth-child(9) {
+    background-image: url(../assets/domestic\ violence.jpg);
+    border-radius: 15px 15px 0 0;
+
+}
+
+.grid-system-img:nth-child(10) {
+    background-image: url(../assets/corporate.jpg);
+}
+
+.grid-system-img:nth-child(11) {
+    background-image: url(../assets/legal\ advice.jpg);
+    border-radius: 0 0 15px 15px;
+
+}
+
+.more {
+    display: none;
+}
+.dots,.more
+{
+    color: #f5f5f5;
+    font-family: 'Roboto', monospace !important;
+
+}
+.tick-icon
+{
+display: inline-block;
+width: 15px;
+stroke: #f5f5f5;
+margin-right: 5px;
+}
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .containerr {
+        margin-top: 5vh;
+        width: 95%;
+    }
+
+    .grid-system-img {
+        height: inherit;
+    }
+
+    .grid-description {
+        width: 100%;
+
+        /* padding: 20px; */
+        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(8px)brightness(70%);
+        /* height: 95%;  */
+        /* width: 48%; */
+        margin: auto auto;
+
+    }
+
+}
