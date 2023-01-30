@@ -28,6 +28,7 @@
     
 }
 
+
 .wrapper {
     margin-bottom: 10vh;
 }
@@ -45,6 +46,13 @@
     height: 100%;
     object-fit: cover;
     
+}
+#lawyer1 {
+    display: block;
+}
+
+#lawyer2 {
+    display: none
 }
 
 .support {
@@ -100,6 +108,13 @@ iframe {
         display: block;
     }
 
+    #lawyer1 {
+        display: none;
+    }
+
+    #lawyer2 {
+        display: block;
+    }
     .wrapper3 {
         margin-bottom: 10vh;
     }
