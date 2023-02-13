@@ -63,10 +63,10 @@
     height: 70vh;
 }
 
-iframe {
+#map {
+    width: 100%;
     height: 100%;
 }
-
 @media only screen and (max-width: 600px) {
     .img-col {
         clip-path: none;

@@ -27,7 +27,7 @@ class header extends HTMLElement {
 
         <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <!-- google fonts link -->
-    <!-- Icon CDN -->
+    
     
 
       `;

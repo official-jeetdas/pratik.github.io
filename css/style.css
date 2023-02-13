@@ -29,6 +29,13 @@ nav {
 .navitem {
     margin-left: auto !important;
 }
+#contact-link1 {
+    display: block;
+}
+
+#contact-link2 {
+    display: none
+}
 
 .logo {
     height: 1.5rem;
@@ -165,7 +172,8 @@ h4 {
 
 .wrapper3>.comma {
     color: #451902;
-    width: 50px;
+    height: 100px;
+    width: 100px;
     margin-bottom: 10vh;
     position: relative;
 }
@@ -330,6 +338,13 @@ footer {
 
     nav {
         margin-top: 0;
+    }
+    #contact-link1 {
+        display: none;
+    }
+    
+    #contact-link2 {
+        display: block;
     }
 
     .containerr {

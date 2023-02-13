@@ -27,8 +27,11 @@ class nav extends HTMLElement {
                       <a class="nav-link" href="expertise.html">Areas of Expertise</a>
                   </li>
                   
-                  <li class="nav-item">
+                  <li class="nav-item" id="contact-link1">
                       <a class="nav-link" href="index.html#contact">Contact</a>
+                  </li>
+                  <li class="nav-item" id="contact-link2">
+                      <a class="nav-link" href="contact.html">Contact</a>
                   </li>
                   
               </ul>

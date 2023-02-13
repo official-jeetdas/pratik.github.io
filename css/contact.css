@@ -1,0 +1,47 @@
+.box
+{
+    width: 50%;
+    margin: 10vh auto !important;
+}
+.box>h1
+{
+    color: #f5f5f5;
+
+}
+.quote, .support
+{
+    text-align: center;
+    margin-bottom: 20px !important;
+}
+.comma
+{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media only screen and (max-width: 600px) 
+{
+.box
+{
+    width: 95%;
+    margin: 8vh auto;
+}
+.box>h1
+{
+    color: #f5f5f5;
+
+}
+.quote, .support
+{
+    text-align: center;
+}
+.comma
+{
+    width: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
